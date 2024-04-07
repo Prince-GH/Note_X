@@ -45,7 +45,7 @@ mode.addEventListener('click',()=>{
 });
 
 done.addEventListener('click',function (){
-navigator.clipboard.writeText(text);
+navigator.clipboard.writeText(editor.value);
 localStorage.removeItem("data");
 localStorage.removeItem("words");
 editor.value='';
