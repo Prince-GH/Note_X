@@ -61,5 +61,18 @@ body{
     font-weight: bold;
     margin-bottom: 5px;
 }
-
+#done{
+position: absolute;
+bottom: 7px;
+right: 30px;
+border: 1.5px solid black;
+padding: 1px;
+margin-right:5px;
+border-radius:8px;
+}
+#done:hover{
+    background: #141414;
+    cursor: pointer;
+    color: rgb(7, 170, 61);
+}
 
